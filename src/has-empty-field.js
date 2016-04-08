@@ -5,6 +5,9 @@
  * @return {Boolean}
  */
 export default function hasEmptyField(obj) {
+  if (typeof obj !== 'object') {
+    throw new TypeError(`Expected an object but got typeof ${typeof obj}`)
+  }
   for (const key in obj) {
     if (!obj[key]) {
       return true
