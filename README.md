@@ -4,6 +4,8 @@
 
 ## Install
 
+You can find it on NPM, but obviously not ready to use.
+
 ```bash
 $ npm install --save mofa
 ```
