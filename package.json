@@ -11,9 +11,6 @@
   },
   "main": "./index.js",
   "jsnext:main": "./src/index.js",
-  "engines": {
-    "node": ">=4"
-  },
   "scripts": {
     "test": "xo src/**/* && ava test/test-*.js",
     "build": "babel src --out-dir ./"
