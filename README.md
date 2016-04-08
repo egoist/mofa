@@ -30,6 +30,17 @@ const someHelper = require('mofa/some-helper')
 
 Check if any property of an object's value is empty.
 
+## Contributing
+
+You are very welcome to add your code to this repo, make sure it is useful and well tested. Then follow this steps to make a PR:
+
+- fork it and create a new branch
+- name the branch with the feature or bug you will work on, like `feature/leftpad`
+- hack the code
+- write some unit tests, and run `npm test`
+- push the updates to your forked one
+- make a pull request
+
 ## License
 
 MIT © [EGOIST](https://github.com/egoist)
