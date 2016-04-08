@@ -18,9 +18,6 @@
     "test": "xo src/**/* && ava test/test-*.js",
     "build": "babel src --out-dir ./"
   },
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     ""
   ],
